@@ -16,7 +16,7 @@
 
 ### Usage
 1. Clone repo and `cd` into the project folder.
-2. Install dependencies.
+2. Install dependencies `yarn install`.
 3. Run `yarn build` to build.
 4. Run `yarn preview` to launch and preview.
 
