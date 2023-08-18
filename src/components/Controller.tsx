@@ -1,10 +1,27 @@
-
+import { useEffect, useState } from "react"
+import Button from "./Button"
+import BetBox from "./BetBox"
 
 function Controller() {
+  const [hasWon, setHasWon] = useState(false)
+
+  const handlePlaceBet = () => {
+    setHasWon(!hasWon)
+    console.log(hasWon)
+  }
+
+  useEffect(() => {
+    console.log(hasWon)
+  }, [hasWon]);
+
+  console.log('hello')
+
   return (
-    <div className="container bg-green-300 mx-auto">
-      <button className="transition-all duration-300 border border-black w-full mt-4 px-4 py-2 rounded-sm bg-indigo-500 hover:bg-indigo-600">Place Bet</button>
+    <><div className="w-full md:w-[850px] lg:w-[1200px] bg-green-500 py-12 mx-auto px-5">
+      <Button runFunction={handlePlaceBet}></Button>
+      <BetBox></BetBox>
     </div>
+    </>
   )
 }
 
