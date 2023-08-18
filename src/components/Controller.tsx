@@ -4,22 +4,21 @@ import BetBox from "./BetBox"
 
 function Controller() {
   const [hasWon, setHasWon] = useState(false)
+  const [betDirection, setBetDirection] = useState("up")
 
   const handlePlaceBet = () => {
     setHasWon(!hasWon)
-    console.log(hasWon)
   }
 
   useEffect(() => {
-    console.log(hasWon)
-  }, [hasWon]);
+    console.log(betDirection)
+  }, [betDirection]);
 
-  console.log('hello')
 
   return (
-    <><div className="w-full md:w-[850px] lg:w-[1200px] bg-green-500 py-12 mx-auto px-5">
+    <><div className="w-full md:w-[850px] lg:w-[1200px] py-12 mx-auto px-5">
       <Button runFunction={handlePlaceBet}></Button>
-      <BetBox></BetBox>
+      <BetBox betDirection= {betDirection} setBetDirection={setBetDirection}></BetBox>
     </div>
     </>
   )
