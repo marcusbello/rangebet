@@ -1,6 +1,8 @@
 # RangeBet
 
-*number range betting game* 
+*Number range betting game* 
+
+
 ![rangeBet image](https://github.com/marcusbello/rangebet/blob/e365f5641f836e433e2e75a1606f95d297ebd3e9/rangeBet.png)
 
 
