@@ -1,10 +1,12 @@
 # RangeBet
 
-#### number range betting game
+*number range betting game* 
+![Alt text](https://github.com/marcusbello/rangebet/raw/main/rangeBet.jpg)
+
 
 ### How to Play
 1. Click the up or down arrow to choose the range you want to bet on.
-2. Click `Place Bet` to bet on a random number.
+2. Click `Play` to bet on a random number.
 3. The game will return **WINNER** if you select the up arrow and the random number is greater than 50 or you select the down button and the random number returned is less than 50.
 4. Lastly, you **LOSE** if the number returned is less than 50 when you have selected the up arrow or you select the down arrow and it returned a random number greater than 50.
 
