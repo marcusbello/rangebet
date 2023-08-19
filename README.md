@@ -1,7 +1,7 @@
 # RangeBet
 
 *number range betting game* 
-![Alt text](https://github.com/marcusbello/rangebet/raw/main/rangeBet.jpg)
+![rangeBet image](https://github.com/marcusbello/rangebet/raw/main/rangeBet.jpg)
 
 
 ### How to Play
